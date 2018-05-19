@@ -1,4 +1,0 @@
-1;Man1;1;Address 1
-2;Man2;2;Address 2
-3;Man3;3;Address 3
-4;Man4;4;Address 4
