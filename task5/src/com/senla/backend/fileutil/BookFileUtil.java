@@ -11,7 +11,6 @@ import com.senla.training.TextFileWorker;
 
 public final class BookFileUtil implements IBookFileUtil<Book> {
 	
-
 	private static final String TEST_FILE = "books.txt";
 			
 	private final FileWorker fileWorker;

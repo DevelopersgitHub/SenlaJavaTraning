@@ -16,7 +16,7 @@ import com.senla.backend.view.IView;
 
 public class Controller implements IController {
 	private static final Logger LOGGER = LogManager.getLogger(Controller.class.getSimpleName());
-	
+
 	IShop shop = new Shop();
 	IView view = new ConsoleView();
 	
