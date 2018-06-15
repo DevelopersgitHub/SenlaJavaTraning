@@ -1,0 +1,902 @@
+ERROR | 2018-05-30 20:28:15 | [main] configuration.Config (Config.java:27) - FileNotFoundExceptionclass java.io.FileNotFoundException
+ERROR | 2018-06-01 01:22:50 | [main] store.OrderStore (OrderStore.java:77) - Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+java.text.ParseException: Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.fileutil.OrderFileUtil.parseDate(OrderFileUtil.java:63) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.fromLine(OrderFileUtil.java:75) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.readFromFile(OrderFileUtil.java:29) ~[bin/:?]
+	at com.senla.backend.store.OrderStore.loadOrder(OrderStore.java:73) [bin/:?]
+	at com.senla.backend.service.OrderService.loadOrder(OrderService.java:64) [bin/:?]
+	at com.senla.backend.service.Shop.countMonthWait(Shop.java:436) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:14) [bin/:?]
+ERROR | 2018-06-01 01:23:00 | [main] store.OrderStore (OrderStore.java:77) - Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+java.text.ParseException: Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.fileutil.OrderFileUtil.parseDate(OrderFileUtil.java:63) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.fromLine(OrderFileUtil.java:75) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.readFromFile(OrderFileUtil.java:29) ~[bin/:?]
+	at com.senla.backend.store.OrderStore.loadOrder(OrderStore.java:73) [bin/:?]
+	at com.senla.backend.service.OrderService.loadOrder(OrderService.java:64) [bin/:?]
+	at com.senla.backend.service.Shop.countMonthWait(Shop.java:436) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:14) [bin/:?]
+ERROR | 2018-06-01 01:23:43 | [main] store.OrderStore (OrderStore.java:77) - Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+java.text.ParseException: Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.fileutil.OrderFileUtil.parseDate(OrderFileUtil.java:63) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.fromLine(OrderFileUtil.java:75) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.readFromFile(OrderFileUtil.java:29) ~[bin/:?]
+	at com.senla.backend.store.OrderStore.loadOrder(OrderStore.java:73) [bin/:?]
+	at com.senla.backend.service.OrderService.loadOrder(OrderService.java:64) [bin/:?]
+	at com.senla.backend.service.Shop.countMonthWait(Shop.java:436) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:14) [bin/:?]
+ERROR | 2018-06-01 01:24:01 | [main] store.OrderStore (OrderStore.java:77) - Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+java.text.ParseException: Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.fileutil.OrderFileUtil.parseDate(OrderFileUtil.java:63) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.fromLine(OrderFileUtil.java:75) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.readFromFile(OrderFileUtil.java:29) ~[bin/:?]
+	at com.senla.backend.store.OrderStore.loadOrder(OrderStore.java:73) [bin/:?]
+	at com.senla.backend.service.OrderService.loadOrder(OrderService.java:64) [bin/:?]
+	at com.senla.backend.service.Shop.countMonthWait(Shop.java:436) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:14) [bin/:?]
+ERROR | 2018-06-01 01:24:46 | [main] store.OrderStore (OrderStore.java:77) - Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+java.text.ParseException: Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.fileutil.OrderFileUtil.parseDate(OrderFileUtil.java:63) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.fromLine(OrderFileUtil.java:75) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.readFromFile(OrderFileUtil.java:29) ~[bin/:?]
+	at com.senla.backend.store.OrderStore.loadOrder(OrderStore.java:73) [bin/:?]
+	at com.senla.backend.service.OrderService.loadOrder(OrderService.java:64) [bin/:?]
+	at com.senla.backend.service.Shop.countMonthWait(Shop.java:436) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:14) [bin/:?]
+ERROR | 2018-06-01 01:25:42 | [main] store.OrderStore (OrderStore.java:75) - For input string: "Waiting for processing"
+java.lang.NumberFormatException: For input string: "Waiting for processing"
+	at jdk.internal.math.FloatingDecimal.readJavaFormatString(Unknown Source) ~[?:?]
+	at jdk.internal.math.FloatingDecimal.parseDouble(Unknown Source) ~[?:?]
+	at java.lang.Double.parseDouble(Unknown Source) ~[?:?]
+	at java.lang.Double.valueOf(Unknown Source) ~[?:?]
+	at com.senla.backend.fileutil.OrderFileUtil.fromLine(OrderFileUtil.java:76) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.readFromFile(OrderFileUtil.java:29) ~[bin/:?]
+	at com.senla.backend.store.OrderStore.loadOrder(OrderStore.java:73) [bin/:?]
+	at com.senla.backend.service.OrderService.loadOrder(OrderService.java:64) [bin/:?]
+	at com.senla.backend.service.Shop.countMonthWait(Shop.java:436) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:14) [bin/:?]
+ERROR | 2018-06-01 01:26:28 | [main] store.OrderStore (OrderStore.java:75) - For input string: "Waiting for processing"
+java.lang.NumberFormatException: For input string: "Waiting for processing"
+	at jdk.internal.math.FloatingDecimal.readJavaFormatString(Unknown Source) ~[?:?]
+	at jdk.internal.math.FloatingDecimal.parseDouble(Unknown Source) ~[?:?]
+	at java.lang.Double.parseDouble(Unknown Source) ~[?:?]
+	at java.lang.Double.valueOf(Unknown Source) ~[?:?]
+	at com.senla.backend.fileutil.OrderFileUtil.fromLine(OrderFileUtil.java:76) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.readFromFile(OrderFileUtil.java:29) ~[bin/:?]
+	at com.senla.backend.store.OrderStore.loadOrder(OrderStore.java:73) [bin/:?]
+	at com.senla.backend.service.OrderService.loadOrder(OrderService.java:64) [bin/:?]
+	at com.senla.backend.service.Shop.countMonthWait(Shop.java:436) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:14) [bin/:?]
+ERROR | 2018-06-01 23:23:08 | [main] store.OrderStore (OrderStore.java:77) - Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+java.text.ParseException: Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.fileutil.OrderFileUtil.parseDate(OrderFileUtil.java:63) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.fromLine(OrderFileUtil.java:75) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.readFromFile(OrderFileUtil.java:29) ~[bin/:?]
+	at com.senla.backend.store.OrderStore.loadOrder(OrderStore.java:73) [bin/:?]
+	at com.senla.backend.service.OrderService.loadOrder(OrderService.java:64) [bin/:?]
+	at com.senla.backend.service.Shop.powerOrdersCompeled(Shop.java:450) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:13) [bin/:?]
+ERROR | 2018-06-01 23:23:30 | [main] store.OrderStore (OrderStore.java:77) - Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+java.text.ParseException: Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.fileutil.OrderFileUtil.parseDate(OrderFileUtil.java:63) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.fromLine(OrderFileUtil.java:75) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.readFromFile(OrderFileUtil.java:29) ~[bin/:?]
+	at com.senla.backend.store.OrderStore.loadOrder(OrderStore.java:73) [bin/:?]
+	at com.senla.backend.service.OrderService.loadOrder(OrderService.java:64) [bin/:?]
+	at com.senla.backend.service.Shop.powerOrdersCompeled(Shop.java:450) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:13) [bin/:?]
+ERROR | 2018-06-02 17:08:32 | [main] csv.CSVUtil (CSVUtil.java:41) - storage.csv (Не удается найти указанный файл)
+java.io.FileNotFoundException: storage.csv (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at java.io.FileReader.<init>(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:35) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 01:14:34 | [main] csv.CSVUtil (CSVUtil.java:43) - Unparseable date: "09.10.2018"
+java.text.ParseException: Unparseable date: "09.10.2018"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.parseDate(CSVUtil.java:63) ~[bin/:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:35) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 01:29:23 | [main] csv.CSVUtil (CSVUtil.java:42) - Unparseable date: "09/10/2018"
+java.text.ParseException: Unparseable date: "09/10/2018"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.parseDate(CSVUtil.java:74) ~[bin/:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:35) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 01:31:04 | [main] csv.CSVUtil (CSVUtil.java:42) - Unparseable date: "09/10/2018"
+java.text.ParseException: Unparseable date: "09/10/2018"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.parseDate(CSVUtil.java:74) ~[bin/:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:35) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 01:31:32 | [main] csv.CSVUtil (CSVUtil.java:42) - Unparseable date: "09/10/2018"
+java.text.ParseException: Unparseable date: "09/10/2018"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.parseDate(CSVUtil.java:74) ~[bin/:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:35) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 01:33:03 | [main] csv.CSVUtil (CSVUtil.java:42) - Unparseable date: "Tue Jul 10 00:00:00 MSK 2018"
+java.text.ParseException: Unparseable date: "Tue Jul 10 00:00:00 MSK 2018"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.parseDate(CSVUtil.java:74) ~[bin/:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:35) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 01:33:03 | [main] csv.CSVUtil (CSVUtil.java:67) - storage.csv (Процесс не может получить доступ к файлу, так как этот файл занят другим процессом)
+java.io.FileNotFoundException: storage.csv (Процесс не может получить доступ к файлу, так как этот файл занят другим процессом)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[?:?]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[?:?]
+	at java.io.FileWriter.<init>(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.exportCSV(CSVUtil.java:50) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:34) [bin/:?]
+ERROR | 2018-06-03 01:34:02 | [main] csv.CSVUtil (CSVUtil.java:42) - Unparseable date: "Tue Jul 10 00:00:00 MSK 2018"
+java.text.ParseException: Unparseable date: "Tue Jul 10 00:00:00 MSK 2018"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.parseDate(CSVUtil.java:74) ~[bin/:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:35) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 01:34:02 | [main] csv.CSVUtil (CSVUtil.java:67) - storage.csv (Процесс не может получить доступ к файлу, так как этот файл занят другим процессом)
+java.io.FileNotFoundException: storage.csv (Процесс не может получить доступ к файлу, так как этот файл занят другим процессом)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[?:?]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[?:?]
+	at java.io.FileWriter.<init>(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.exportCSV(CSVUtil.java:50) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:34) [bin/:?]
+ERROR | 2018-06-03 01:37:19 | [main] csv.CSVUtil (CSVUtil.java:40) - For input string: "3,To Killa Mockingbird,Tue Jul 10 00:00:00 MSK 2018,2056.23,true,To Kill a Mockingbird is a novel by Harper Lee published in 1960. It was immediately successful, winning the Pulitzer Prize, and has become a classic of modern American literature"
+java.lang.NumberFormatException: For input string: "3,To Killa Mockingbird,Tue Jul 10 00:00:00 MSK 2018,2056.23,true,To Kill a Mockingbird is a novel by Harper Lee published in 1960. It was immediately successful, winning the Pulitzer Prize, and has become a classic of modern American literature"
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:?]
+	at java.lang.Long.parseLong(Unknown Source) ~[?:?]
+	at java.lang.Long.parseLong(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:35) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 01:37:40 | [main] csv.CSVUtil (CSVUtil.java:42) - Unparseable date: "09.10.2018"
+java.text.ParseException: Unparseable date: "09.10.2018"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.parseDate(CSVUtil.java:74) ~[bin/:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:35) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 01:39:46 | [main] csv.CSVUtil (CSVUtil.java:40) - For input string: "2;Harry Potter and the Order of the Phoenix;09.10.2018;874.21;true;Harry Potter and the Order of the Phoenix is a 2007 fantasy film directed by David Yates and distributed by Warner Bros. Pictures"
+java.lang.NumberFormatException: For input string: "2;Harry Potter and the Order of the Phoenix;09.10.2018;874.21;true;Harry Potter and the Order of the Phoenix is a 2007 fantasy film directed by David Yates and distributed by Warner Bros. Pictures"
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:?]
+	at java.lang.Long.parseLong(Unknown Source) ~[?:?]
+	at java.lang.Long.parseLong(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:35) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 01:42:00 | [main] csv.CSVUtil (CSVUtil.java:40) - For input string: "2;Harry Potter and the Order of the Phoenix;09.10.2018;874.21;true;Harry Potter and the Order of the Phoenix is a 2007 fantasy film directed by David Yates and distributed by Warner Bros. Pictures"
+java.lang.NumberFormatException: For input string: "2;Harry Potter and the Order of the Phoenix;09.10.2018;874.21;true;Harry Potter and the Order of the Phoenix is a 2007 fantasy film directed by David Yates and distributed by Warner Bros. Pictures"
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:?]
+	at java.lang.Long.parseLong(Unknown Source) ~[?:?]
+	at java.lang.Long.parseLong(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:35) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 01:42:30 | [main] csv.CSVUtil (CSVUtil.java:40) - For input string: "2;Harry Potter and the Order of the Phoenix;09.10.2018;874.21;true;Harry Potter and the Order of the Phoenix is a 2007 fantasy film directed by David Yates and distributed by Warner Bros. Pictures"
+java.lang.NumberFormatException: For input string: "2;Harry Potter and the Order of the Phoenix;09.10.2018;874.21;true;Harry Potter and the Order of the Phoenix is a 2007 fantasy film directed by David Yates and distributed by Warner Bros. Pictures"
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:?]
+	at java.lang.Long.parseLong(Unknown Source) ~[?:?]
+	at java.lang.Long.parseLong(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:35) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 01:42:43 | [main] csv.CSVUtil (CSVUtil.java:40) - For input string: "2;Harry Potter and the Order of the Phoenix;09.10.2018;874.21;true;Harry Potter and the Order of the Phoenix is a 2007 fantasy film directed by David Yates and distributed by Warner Bros. Pictures"
+java.lang.NumberFormatException: For input string: "2;Harry Potter and the Order of the Phoenix;09.10.2018;874.21;true;Harry Potter and the Order of the Phoenix is a 2007 fantasy film directed by David Yates and distributed by Warner Bros. Pictures"
+	at java.lang.NumberFormatException.forInputString(Unknown Source) ~[?:?]
+	at java.lang.Long.parseLong(Unknown Source) ~[?:?]
+	at java.lang.Long.parseLong(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:35) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 01:43:00 | [main] csv.CSVUtil (CSVUtil.java:42) - Unparseable date: "09.10.2018"
+java.text.ParseException: Unparseable date: "09.10.2018"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.parseDate(CSVUtil.java:74) ~[bin/:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:35) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 01:50:52 | [main] csv.CSVUtil (CSVUtil.java:43) - Unparseable date: "Tue Jul 10 00:00:00 MSK 2018"
+java.text.ParseException: Unparseable date: "Tue Jul 10 00:00:00 MSK 2018"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.parseDate(CSVUtil.java:78) ~[bin/:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:35) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 01:50:52 | [main] csv.CSVUtil (CSVUtil.java:71) - storage.csv (Процесс не может получить доступ к файлу, так как этот файл занят другим процессом)
+java.io.FileNotFoundException: storage.csv (Процесс не может получить доступ к файлу, так как этот файл занят другим процессом)
+	at java.io.FileOutputStream.open0(Native Method) ~[?:?]
+	at java.io.FileOutputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[?:?]
+	at java.io.FileOutputStream.<init>(Unknown Source) ~[?:?]
+	at java.io.FileWriter.<init>(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.exportCSV(CSVUtil.java:51) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:34) [bin/:?]
+ERROR | 2018-06-03 01:51:56 | [main] csv.CSVUtil (CSVUtil.java:43) - Unparseable date: "Tue Jul 10 00:00:00 MSK 2018"
+java.text.ParseException: Unparseable date: "Tue Jul 10 00:00:00 MSK 2018"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.parseDate(CSVUtil.java:78) ~[bin/:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:35) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 02:00:17 | [main] csv.CSVUtil (CSVUtil.java:73) - Unparseable date: "Tue Oct 09 00:00:00 MSK 2018"
+java.text.ParseException: Unparseable date: "Tue Oct 09 00:00:00 MSK 2018"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.parseDate(CSVUtil.java:82) ~[bin/:?]
+	at com.senla.backend.csv.CSVUtil.exportCSV(CSVUtil.java:60) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:34) [bin/:?]
+ERROR | 2018-06-03 02:02:49 | [main] csv.CSVUtil (CSVUtil.java:72) - Unparseable date: "Tue Oct 09 00:00:00 MSK 2018"
+java.text.ParseException: Unparseable date: "Tue Oct 09 00:00:00 MSK 2018"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.parseDate(CSVUtil.java:81) ~[bin/:?]
+	at com.senla.backend.csv.CSVUtil.exportCSV(CSVUtil.java:60) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:34) [bin/:?]
+ERROR | 2018-06-03 02:05:54 | [main] csv.CSVUtil (CSVUtil.java:73) - Unparseable date: "Tue Oct 09 00:00:00 MSK 2018"
+java.text.ParseException: Unparseable date: "Tue Oct 09 00:00:00 MSK 2018"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.parseDate(CSVUtil.java:82) ~[bin/:?]
+	at com.senla.backend.csv.CSVUtil.exportCSV(CSVUtil.java:60) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:34) [bin/:?]
+ERROR | 2018-06-03 02:10:15 | [main] csv.CSVUtil (CSVUtil.java:46) - Unparseable date: "Tue Jul 10 00:00:00 MSK 2018"
+java.text.ParseException: Unparseable date: "Tue Jul 10 00:00:00 MSK 2018"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.parseDate(CSVUtil.java:84) ~[bin/:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:38) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 02:19:58 | [main] csv.CSVUtil (CSVUtil.java:48) - Unparseable date: "Tue Oct 09 00:00:00 MSK 2012"
+java.text.ParseException: Unparseable date: "Tue Oct 09 00:00:00 MSK 2012"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.parseDate(CSVUtil.java:86) ~[bin/:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:38) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 02:21:09 | [main] csv.CSVUtil (CSVUtil.java:48) - Unparseable date: "Tue Oct 09 00:00:00 MSK 2012"
+java.text.ParseException: Unparseable date: "Tue Oct 09 00:00:00 MSK 2012"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.parseDate(CSVUtil.java:86) ~[bin/:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:38) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-03 02:25:00 | [main] csv.CSVUtil (CSVUtil.java:48) - Unparseable date: "Tue Oct 09 00:00:00 MSK 2012"
+java.text.ParseException: Unparseable date: "Tue Oct 09 00:00:00 MSK 2012"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.parseDate(CSVUtil.java:86) ~[bin/:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:38) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-05 17:37:15 | [main] serialization.SerializationUtil (SerializationUtil.java:34) - com.senla.backend.dto.DTO
+java.io.NotSerializableException: com.senla.backend.dto.DTO
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.serialization(SerializationUtil.java:31) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:254) [bin/:?]
+ERROR | 2018-06-05 17:39:25 | [main] serialization.SerializationUtil (SerializationUtil.java:34) - com.senla.backend.dto.DTO
+java.io.NotSerializableException: com.senla.backend.dto.DTO
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.serialization(SerializationUtil.java:31) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:254) [bin/:?]
+ERROR | 2018-06-05 17:40:12 | [main] serialization.SerializationUtil (SerializationUtil.java:34) - com.senla.backend.dto.DTO
+java.io.NotSerializableException: com.senla.backend.dto.DTO
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.serialization(SerializationUtil.java:31) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:254) [bin/:?]
+ERROR | 2018-06-05 17:43:51 | [main] serialization.SerializationUtil (SerializationUtil.java:32) - com.senla.backend.service.Shop
+java.io.NotSerializableException: com.senla.backend.service.Shop
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.serialization(SerializationUtil.java:29) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:254) [bin/:?]
+ERROR | 2018-06-05 17:45:41 | [main] serialization.SerializationUtil (SerializationUtil.java:32) - com.senla.backend.service.Shop
+java.io.NotSerializableException: com.senla.backend.service.Shop
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.serialization(SerializationUtil.java:29) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:254) [bin/:?]
+ERROR | 2018-06-05 17:58:14 | [main] serialization.SerializationUtil (SerializationUtil.java:32) - com.senla.backend.service.Shop
+java.io.NotSerializableException: com.senla.backend.service.Shop
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.serialization(SerializationUtil.java:29) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:254) [bin/:?]
+ERROR | 2018-06-05 18:00:03 | [main] serialization.SerializationUtil (SerializationUtil.java:32) - com.senla.backend.service.Shop
+java.io.NotSerializableException: com.senla.backend.service.Shop
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.serialization(SerializationUtil.java:29) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:254) [bin/:?]
+ERROR | 2018-06-05 18:00:39 | [main] serialization.SerializationUtil (SerializationUtil.java:33) - com.senla.backend.service.Shop
+java.io.NotSerializableException: com.senla.backend.service.Shop
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.serialization(SerializationUtil.java:30) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:254) [bin/:?]
+ERROR | 2018-06-05 18:01:11 | [main] serialization.SerializationUtil (SerializationUtil.java:33) - com.senla.backend.service.BookService
+java.io.NotSerializableException: com.senla.backend.service.BookService
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.serialization(SerializationUtil.java:30) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:254) [bin/:?]
+ERROR | 2018-06-05 18:15:57 | [main] serialization.SerializationUtil (SerializationUtil.java:33) - com.senla.backend.service.Shop
+java.io.NotSerializableException: com.senla.backend.service.Shop
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.serialization(SerializationUtil.java:30) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:254) [bin/:?]
+ERROR | 2018-06-05 18:16:40 | [main] serialization.SerializationUtil (SerializationUtil.java:33) - com.senla.backend.service.Shop
+java.io.NotSerializableException: com.senla.backend.service.Shop
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.serialization(SerializationUtil.java:30) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:254) [bin/:?]
+ERROR | 2018-06-05 18:17:16 | [main] serialization.SerializationUtil (SerializationUtil.java:33) - com.senla.backend.service.Shop
+java.io.NotSerializableException: com.senla.backend.service.Shop
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.serialization(SerializationUtil.java:30) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:30) [bin/:?]
+ERROR | 2018-06-05 18:17:44 | [main] serialization.SerializationUtil (SerializationUtil.java:32) - com.senla.backend.service.Shop
+java.io.NotSerializableException: com.senla.backend.service.Shop
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.serialization(SerializationUtil.java:29) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:30) [bin/:?]
+ERROR | 2018-06-05 18:18:18 | [main] serialization.SerializationUtil (SerializationUtil.java:29) - com.senla.backend.service.Shop
+java.io.NotSerializableException: com.senla.backend.service.Shop
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.defaultWriteFields(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeSerialData(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject0(Unknown Source) ~[?:?]
+	at java.io.ObjectOutputStream.writeObject(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.serialization(SerializationUtil.java:26) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:30) [bin/:?]
+ERROR | 2018-06-09 00:36:23 | [main] di.DI (DI.java:26) - com.senla.backend.store.IBookStore
+java.lang.InstantiationException: com.senla.backend.store.IBookStore
+	at java.lang.Class.newInstance(Unknown Source) ~[?:?]
+	at com.senla.di.DI.configure(DI.java:22) [bin/:?]
+	at com.senla.backend.service.BookService.<init>(BookService.java:22) [bin/:?]
+	at com.senla.backend.service.Shop.<init>(Shop.java:42) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:22) [bin/:?]
+Caused by: java.lang.NoSuchMethodException: com.senla.backend.store.IBookStore.<init>()
+	at java.lang.Class.getConstructor0(Unknown Source) ~[?:?]
+	... 5 more
+ERROR | 2018-06-09 00:48:18 | [main] di.DI (DI.java:26) - com.senla.backend.store.IBookStore
+java.lang.InstantiationException: com.senla.backend.store.IBookStore
+	at java.lang.Class.newInstance(Unknown Source) ~[?:?]
+	at com.senla.di.DI.configure(DI.java:22) [bin/:?]
+	at com.senla.backend.service.BookService.<init>(BookService.java:22) [bin/:?]
+	at com.senla.backend.service.Shop.<init>(Shop.java:42) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:22) [bin/:?]
+Caused by: java.lang.NoSuchMethodException: com.senla.backend.store.IBookStore.<init>()
+	at java.lang.Class.getConstructor0(Unknown Source) ~[?:?]
+	... 5 more
+ERROR | 2018-06-09 01:14:58 | [main] di.DI (DI.java:26) - com.senla.backend.store.IBookStore
+java.lang.InstantiationException: com.senla.backend.store.IBookStore
+	at java.lang.Class.newInstance(Unknown Source) ~[?:?]
+	at com.senla.di.DI.configure(DI.java:22) [bin/:?]
+	at com.senla.backend.service.BookService.<init>(BookService.java:22) [bin/:?]
+	at com.senla.backend.service.Shop.<init>(Shop.java:42) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:22) [bin/:?]
+Caused by: java.lang.NoSuchMethodException: com.senla.backend.store.IBookStore.<init>()
+	at java.lang.Class.getConstructor0(Unknown Source) ~[?:?]
+	... 5 more
+ERROR | 2018-06-09 10:44:55 | [main] serialization.SerializationUtil (SerializationUtil.java:43) - invalid stream header: 6D6F6E74
+java.io.StreamCorruptedException: invalid stream header: 6D6F6E74
+	at java.io.ObjectInputStream.readStreamHeader(Unknown Source) ~[?:?]
+	at java.io.ObjectInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.deserialization(SerializationUtil.java:36) [bin/:?]
+	at com.senla.backend.service.Shop.deserialization(Shop.java:500) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:26) [bin/:?]
+ERROR | 2018-06-09 10:44:58 | [main] serialization.SerializationUtil (SerializationUtil.java:43) - invalid stream header: 6D6F6E74
+java.io.StreamCorruptedException: invalid stream header: 6D6F6E74
+	at java.io.ObjectInputStream.readStreamHeader(Unknown Source) ~[?:?]
+	at java.io.ObjectInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.deserialization(SerializationUtil.java:36) [bin/:?]
+	at com.senla.backend.service.Shop.deserialization(Shop.java:500) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:26) [bin/:?]
+ERROR | 2018-06-09 10:45:05 | [main] serialization.SerializationUtil (SerializationUtil.java:43) - invalid stream header: 6D6F6E74
+java.io.StreamCorruptedException: invalid stream header: 6D6F6E74
+	at java.io.ObjectInputStream.readStreamHeader(Unknown Source) ~[?:?]
+	at java.io.ObjectInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.deserialization(SerializationUtil.java:36) [bin/:?]
+	at com.senla.backend.service.Shop.deserialization(Shop.java:500) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:26) [bin/:?]
+ERROR | 2018-06-09 10:45:37 | [main] serialization.SerializationUtil (SerializationUtil.java:44) - invalid stream header: 6D6F6E74
+java.io.StreamCorruptedException: invalid stream header: 6D6F6E74
+	at java.io.ObjectInputStream.readStreamHeader(Unknown Source) ~[?:?]
+	at java.io.ObjectInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.deserialization(SerializationUtil.java:37) [bin/:?]
+	at com.senla.backend.service.Shop.deserialization(Shop.java:500) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:26) [bin/:?]
+ERROR | 2018-06-11 22:29:53 | [main] serialization.SerializationUtil (SerializationUtil.java:43) - invalid stream header: 6D6F6E74
+java.io.StreamCorruptedException: invalid stream header: 6D6F6E74
+	at java.io.ObjectInputStream.readStreamHeader(Unknown Source) ~[?:?]
+	at java.io.ObjectInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.deserialization(SerializationUtil.java:36) [bin/:?]
+	at com.senla.backend.service.Shop.deserialization(Shop.java:500) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:26) [bin/:?]
+ERROR | 2018-06-11 22:30:23 | [main] serialization.SerializationUtil (SerializationUtil.java:43) - invalid stream header: 6D6F6E74
+java.io.StreamCorruptedException: invalid stream header: 6D6F6E74
+	at java.io.ObjectInputStream.readStreamHeader(Unknown Source) ~[?:?]
+	at java.io.ObjectInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.deserialization(SerializationUtil.java:36) [bin/:?]
+	at com.senla.backend.service.Shop.deserialization(Shop.java:500) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:26) [bin/:?]
+ERROR | 2018-06-11 22:31:06 | [main] serialization.SerializationUtil (SerializationUtil.java:43) - invalid stream header: 6D6F6E74
+java.io.StreamCorruptedException: invalid stream header: 6D6F6E74
+	at java.io.ObjectInputStream.readStreamHeader(Unknown Source) ~[?:?]
+	at java.io.ObjectInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.deserialization(SerializationUtil.java:36) [bin/:?]
+	at com.senla.backend.service.Shop.deserialization(Shop.java:500) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:26) [bin/:?]
+ERROR | 2018-06-11 22:31:41 | [main] serialization.SerializationUtil (SerializationUtil.java:44) - invalid stream header: 6D6F6E74
+java.io.StreamCorruptedException: invalid stream header: 6D6F6E74
+	at java.io.ObjectInputStream.readStreamHeader(Unknown Source) ~[?:?]
+	at java.io.ObjectInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.deserialization(SerializationUtil.java:37) [bin/:?]
+	at com.senla.backend.service.Shop.deserialization(Shop.java:500) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:26) [bin/:?]
+ERROR | 2018-06-11 22:43:05 | [main] serialization.SerializationUtil (SerializationUtil.java:43) - null (Не удается найти указанный файл)
+java.io.FileNotFoundException: null (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.deserialization(SerializationUtil.java:35) [bin/:?]
+	at com.senla.backend.service.Shop.deserialization(Shop.java:500) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:26) [bin/:?]
+ERROR | 2018-06-11 22:44:22 | [main] serialization.SerializationUtil (SerializationUtil.java:43) - null (Не удается найти указанный файл)
+java.io.FileNotFoundException: null (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.deserialization(SerializationUtil.java:35) [bin/:?]
+	at com.senla.backend.service.Shop.deserialization(Shop.java:500) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:26) [bin/:?]
+ERROR | 2018-06-13 14:32:09 | [main] store.OrderStore (OrderStore.java:77) - Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+java.text.ParseException: Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.fileutil.OrderFileUtil.parseDate(OrderFileUtil.java:63) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.fromLine(OrderFileUtil.java:75) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.readFromFile(OrderFileUtil.java:29) ~[bin/:?]
+	at com.senla.backend.store.OrderStore.loadOrder(OrderStore.java:73) [bin/:?]
+	at com.senla.backend.service.OrderService.loadOrder(OrderService.java:65) [bin/:?]
+	at com.senla.backend.service.Shop.powerOrdersCompeled(Shop.java:458) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:12) [bin/:?]
+ERROR | 2018-06-13 14:32:46 | [main] store.OrderStore (OrderStore.java:77) - Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+java.text.ParseException: Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.fileutil.OrderFileUtil.parseDate(OrderFileUtil.java:63) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.fromLine(OrderFileUtil.java:75) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.readFromFile(OrderFileUtil.java:29) ~[bin/:?]
+	at com.senla.backend.store.OrderStore.loadOrder(OrderStore.java:73) [bin/:?]
+	at com.senla.backend.service.OrderService.loadOrder(OrderService.java:65) [bin/:?]
+	at com.senla.backend.service.Shop.countMonthWait(Shop.java:444) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:11) [bin/:?]
+ERROR | 2018-06-13 19:15:43 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:41) - Can not set static final java.lang.String field com.senla.backend.serialization.SerializationUtil.path to java.lang.String
+java.lang.IllegalAccessException: Can not set static final java.lang.String field com.senla.backend.serialization.SerializationUtil.path to java.lang.String
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.set(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:33) [bin/:?]
+	at com.senla.backend.serialization.SerializationUtil.<init>(SerializationUtil.java:22) [bin/:?]
+	at com.senla.backend.service.Shop.<init>(Shop.java:33) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:19) [bin/:?]
+ERROR | 2018-06-13 19:16:00 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:41) - Can not set static final java.lang.String field com.senla.backend.serialization.SerializationUtil.path to java.lang.String
+java.lang.IllegalAccessException: Can not set static final java.lang.String field com.senla.backend.serialization.SerializationUtil.path to java.lang.String
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwFinalFieldIllegalAccessException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeQualifiedStaticObjectFieldAccessorImpl.set(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.set(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:33) [bin/:?]
+	at com.senla.backend.serialization.SerializationUtil.<init>(SerializationUtil.java:22) [bin/:?]
+	at com.senla.backend.service.Shop.<init>(Shop.java:33) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:19) [bin/:?]
+ERROR | 2018-06-13 19:28:43 | [main] configuration.Config (Config.java:29) - path (Не удается найти указанный файл)
+java.io.FileNotFoundException: path (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.configuration.Config.configure(Config.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:21) [bin/:?]
+ERROR | 2018-06-13 19:29:05 | [main] configuration.Config (Config.java:29) - null (Не удается найти указанный файл)
+java.io.FileNotFoundException: null (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.configuration.Config.configure(Config.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:21) [bin/:?]
+ERROR | 2018-06-13 19:29:44 | [main] configuration.Config (Config.java:29) - null (Не удается найти указанный файл)
+java.io.FileNotFoundException: null (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.configuration.Config.configure(Config.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:21) [bin/:?]
+ERROR | 2018-06-13 19:30:00 | [main] configuration.Config (Config.java:29) - path (Не удается найти указанный файл)
+java.io.FileNotFoundException: path (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.configuration.Config.configure(Config.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:21) [bin/:?]
+ERROR | 2018-06-13 19:36:25 | [main] configuration.Config (Config.java:29) - config.properties (Не удается найти указанный файл)
+java.io.FileNotFoundException: config.properties (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.configuration.Config.configure(Config.java:24) [bin/:?]
+	at com.senla.backend.serialization.SerializationUtil.<init>(SerializationUtil.java:25) [bin/:?]
+	at com.senla.backend.service.Shop.<init>(Shop.java:33) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:19) [bin/:?]
+ERROR | 2018-06-14 15:51:54 | [main] configuration.Config (Config.java:29) - path (Не удается найти указанный файл)
+java.io.FileNotFoundException: path (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.configuration.Config.configure(Config.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:25) [bin/:?]
+ERROR | 2018-06-14 15:52:57 | [main] configuration.Config (Config.java:29) - path (Не удается найти указанный файл)
+java.io.FileNotFoundException: path (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.configuration.Config.configure(Config.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:25) [bin/:?]
+ERROR | 2018-06-14 15:54:35 | [main] configuration.Config (Config.java:29) - path (Не удается найти указанный файл)
+java.io.FileNotFoundException: path (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.configuration.Config.configure(Config.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:25) [bin/:?]
+ERROR | 2018-06-14 16:47:27 | [main] configuration.Config (Config.java:29) - config.properties (Не удается найти указанный файл)
+java.io.FileNotFoundException: config.properties (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.configuration.Config.configure(Config.java:24) [bin/:?]
+	at com.senla.backend.serialization.SerializationUtil.<init>(SerializationUtil.java:25) [bin/:?]
+	at com.senla.backend.service.Shop.<init>(Shop.java:33) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:23) [bin/:?]
+ERROR | 2018-06-14 16:47:43 | [main] configuration.Config (Config.java:29) - config.properties (Не удается найти указанный файл)
+java.io.FileNotFoundException: config.properties (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.configuration.Config.configure(Config.java:24) [bin/:?]
+	at com.senla.backend.serialization.SerializationUtil.<init>(SerializationUtil.java:25) [bin/:?]
+	at com.senla.backend.service.Shop.<init>(Shop.java:33) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:23) [bin/:?]
+ERROR | 2018-06-14 17:44:49 | [main] serialization.SerializationUtil (SerializationUtil.java:51) - invalid stream header: 70617468
+java.io.StreamCorruptedException: invalid stream header: 70617468
+	at java.io.ObjectInputStream.readStreamHeader(Unknown Source) ~[?:?]
+	at java.io.ObjectInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.deserialization(SerializationUtil.java:44) [bin/:?]
+	at com.senla.backend.service.Shop.deserialization(Shop.java:501) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-14 17:44:56 | [main] serialization.SerializationUtil (SerializationUtil.java:51) - invalid stream header: 70617468
+java.io.StreamCorruptedException: invalid stream header: 70617468
+	at java.io.ObjectInputStream.readStreamHeader(Unknown Source) ~[?:?]
+	at java.io.ObjectInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.backend.serialization.SerializationUtil.deserialization(SerializationUtil.java:44) [bin/:?]
+	at com.senla.backend.service.Shop.deserialization(Shop.java:501) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:28) [bin/:?]
+ERROR | 2018-06-14 22:48:47 | [main] store.BookStore (BookStore.java:61) - Unparseable date: "Fri Nov 11 00:00:00 MSK 2016"
+java.text.ParseException: Unparseable date: "Fri Nov 11 00:00:00 MSK 2016"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.fileutil.BookFileUtil.parseDate(BookFileUtil.java:66) ~[bin/:?]
+	at com.senla.backend.fileutil.BookFileUtil.fromLine(BookFileUtil.java:80) ~[bin/:?]
+	at com.senla.backend.fileutil.BookFileUtil.readFromFile(BookFileUtil.java:31) ~[bin/:?]
+	at com.senla.backend.store.BookStore.loadBook(BookStore.java:57) [bin/:?]
+	at com.senla.backend.service.BookService.loadBook(BookService.java:61) [bin/:?]
+	at com.senla.backend.service.Shop.serialization(Shop.java:499) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:42) [bin/:?]
+ERROR | 2018-06-14 22:50:27 | [main] store.OrderStore (OrderStore.java:77) - Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+java.text.ParseException: Unparseable date: "Sun Aug 21 00:00:00 MSK 2011"
+	at java.text.DateFormat.parse(Unknown Source) ~[?:?]
+	at com.senla.backend.fileutil.OrderFileUtil.parseDate(OrderFileUtil.java:63) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.fromLine(OrderFileUtil.java:75) ~[bin/:?]
+	at com.senla.backend.fileutil.OrderFileUtil.readFromFile(OrderFileUtil.java:29) ~[bin/:?]
+	at com.senla.backend.store.OrderStore.loadOrder(OrderStore.java:73) [bin/:?]
+	at com.senla.backend.service.OrderService.loadOrder(OrderService.java:65) [bin/:?]
+	at com.senla.backend.service.Shop.serialization(Shop.java:500) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:42) [bin/:?]
+ERROR | 2018-06-14 23:21:35 | [main] configuration.Config (Config.java:29) - di.properties (Не удается найти указанный файл)
+java.io.FileNotFoundException: di.properties (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.configuration.Config.configure(Config.java:24) [bin/:?]
+	at com.senla.di.DI.configure(DI.java:25) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:23) [bin/:?]
+ERROR | 2018-06-14 23:22:10 | [main] configuration.Config (Config.java:29) - di.properties (Не удается найти указанный файл)
+java.io.FileNotFoundException: di.properties (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.configuration.Config.configure(Config.java:24) [bin/:?]
+	at com.senla.di.DI.configure(DI.java:25) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:23) [bin/:?]
+ERROR | 2018-06-14 23:22:28 | [main] configuration.Config (Config.java:29) - di.properties (Не удается найти указанный файл)
+java.io.FileNotFoundException: di.properties (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.configuration.Config.configure(Config.java:24) [bin/:?]
+	at com.senla.di.DI.configure(DI.java:25) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:23) [bin/:?]
+ERROR | 2018-06-15 00:19:17 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set static java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+java.lang.IllegalArgumentException: Can not set static java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeStaticObjectFieldAccessorImpl.setInt(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setInt(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:23) [bin/:?]
+ERROR | 2018-06-15 00:19:17 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set static java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+java.lang.IllegalArgumentException: Can not set static java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeStaticObjectFieldAccessorImpl.setBoolean(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setBoolean(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:27) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:23) [bin/:?]
+ERROR | 2018-06-15 00:24:26 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set static java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+java.lang.IllegalArgumentException: Can not set static java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeStaticObjectFieldAccessorImpl.setInt(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setInt(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:19) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:25) [bin/:?]
+ERROR | 2018-06-15 00:24:26 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set static java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+java.lang.IllegalArgumentException: Can not set static java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeStaticObjectFieldAccessorImpl.setBoolean(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setBoolean(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:27) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:19) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:25) [bin/:?]
+ERROR | 2018-06-15 00:24:34 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set static java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+java.lang.IllegalArgumentException: Can not set static java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeStaticObjectFieldAccessorImpl.setInt(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setInt(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:19) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:25) [bin/:?]
+ERROR | 2018-06-15 00:24:34 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set static java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+java.lang.IllegalArgumentException: Can not set static java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeStaticObjectFieldAccessorImpl.setBoolean(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setBoolean(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:27) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:19) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:25) [bin/:?]
+ERROR | 2018-06-15 00:25:13 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set static java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+java.lang.IllegalArgumentException: Can not set static java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeStaticObjectFieldAccessorImpl.setInt(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setInt(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:19) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:25) [bin/:?]
+ERROR | 2018-06-15 00:25:13 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set static java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+java.lang.IllegalArgumentException: Can not set static java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeStaticObjectFieldAccessorImpl.setBoolean(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setBoolean(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:27) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:19) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:25) [bin/:?]
+ERROR | 2018-06-15 00:31:02 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+java.lang.IllegalArgumentException: Can not set java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.setInt(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setInt(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:23) [bin/:?]
+ERROR | 2018-06-15 00:31:02 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+java.lang.IllegalArgumentException: Can not set java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.setBoolean(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setBoolean(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:27) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:23) [bin/:?]
+ERROR | 2018-06-15 00:31:59 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+java.lang.IllegalArgumentException: Can not set java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.setInt(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setInt(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:23) [bin/:?]
+ERROR | 2018-06-15 00:32:00 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+java.lang.IllegalArgumentException: Can not set java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.setBoolean(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setBoolean(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:27) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:23) [bin/:?]
+ERROR | 2018-06-15 00:33:10 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - class com.senla.annotation.ConfigAnnotation cannot access a member of class com.senla.backend.controller.ConfigMain with modifiers "private"
+java.lang.IllegalAccessException: class com.senla.annotation.ConfigAnnotation cannot access a member of class com.senla.backend.controller.ConfigMain with modifiers "private"
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Unknown Source) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.checkAccess(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setInt(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:23) [bin/:?]
+ERROR | 2018-06-15 00:33:10 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - class com.senla.annotation.ConfigAnnotation cannot access a member of class com.senla.backend.controller.ConfigMain with modifiers "private"
+java.lang.IllegalAccessException: class com.senla.annotation.ConfigAnnotation cannot access a member of class com.senla.backend.controller.ConfigMain with modifiers "private"
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Unknown Source) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.checkAccess(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setBoolean(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:27) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:23) [bin/:?]
+ERROR | 2018-06-15 00:33:18 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+java.lang.IllegalArgumentException: Can not set java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.setInt(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setInt(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:23) [bin/:?]
+ERROR | 2018-06-15 00:33:18 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+java.lang.IllegalArgumentException: Can not set java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.setBoolean(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setBoolean(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:27) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:23) [bin/:?]
+ERROR | 2018-06-15 00:33:35 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+java.lang.IllegalArgumentException: Can not set java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.setInt(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setInt(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:23) [bin/:?]
+ERROR | 2018-06-15 00:33:35 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+java.lang.IllegalArgumentException: Can not set java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.setBoolean(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setBoolean(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:27) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.Main.main(Main.java:23) [bin/:?]
+ERROR | 2018-06-15 00:40:10 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+java.lang.IllegalArgumentException: Can not set java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.setInt(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setInt(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:27) [bin/:?]
+ERROR | 2018-06-15 00:40:10 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+java.lang.IllegalArgumentException: Can not set java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.setBoolean(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setBoolean(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:27) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:27) [bin/:?]
+ERROR | 2018-06-15 00:45:34 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set java.lang.Integer field com.senla.backend.controller.ConfigMain.count to java.lang.String
+java.lang.IllegalArgumentException: Can not set java.lang.Integer field com.senla.backend.controller.ConfigMain.count to java.lang.String
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.set(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.set(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:27) [bin/:?]
+ERROR | 2018-06-15 00:45:34 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+java.lang.IllegalArgumentException: Can not set java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.setBoolean(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setBoolean(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:27) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:27) [bin/:?]
+ERROR | 2018-06-15 00:49:46 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+java.lang.IllegalArgumentException: Can not set java.lang.Integer field com.senla.backend.controller.ConfigMain.count to (int)6
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.setInt(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setInt(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:24) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:27) [bin/:?]
+ERROR | 2018-06-15 00:49:46 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+java.lang.IllegalArgumentException: Can not set java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.setBoolean(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setBoolean(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:27) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:27) [bin/:?]
+ERROR | 2018-06-15 00:51:51 | [main] annotation.ConfigAnnotation (ConfigAnnotation.java:39) - Can not set java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+java.lang.IllegalArgumentException: Can not set java.lang.Boolean field com.senla.backend.controller.ConfigMain.powerOrders to (boolean)true
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.setBoolean(Unknown Source) ~[?:?]
+	at java.lang.reflect.Field.setBoolean(Unknown Source) ~[?:?]
+	at com.senla.annotation.ConfigAnnotation.loadAnnotation(ConfigAnnotation.java:27) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.<init>(ConfigMain.java:17) [bin/:?]
+	at com.senla.backend.controller.ConfigMain.main(ConfigMain.java:27) [bin/:?]

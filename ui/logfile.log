@@ -1,0 +1,92 @@
+ERROR | 2018-05-27 16:42:26 | [main] util.ScannerHelper (ScannerHelper.java:27) - Exception: class java.util.NoSuchElementException
+ERROR | 2018-05-29 00:04:47 | [main] controller.Controller (Controller.java:157) - Exception: class java.lang.NullPointerException
+ERROR | 2018-05-29 00:06:45 | [main] controller.Controller (Controller.java:157) - Exception: class java.lang.NullPointerException
+ERROR | 2018-05-29 00:15:34 | [main] controller.Controller (Controller.java:175) - Exception: class java.lang.NullPointerException
+ERROR | 2018-05-29 00:16:33 | [main] controller.Controller (Controller.java:175) - Exception: class java.lang.NullPointerException
+ERROR | 2018-05-29 00:18:11 | [main] controller.Controller (Controller.java:175) - Exception: class java.lang.NullPointerException
+ERROR | 2018-05-29 00:19:30 | [main] controller.Controller (Controller.java:175) - Exception: class java.lang.NullPointerException
+ERROR | 2018-05-29 00:31:15 | [main] controller.Controller (Controller.java:175) - Exception: class java.lang.NullPointerException
+ERROR | 2018-05-29 14:51:31 | [main] controller.Controller (Controller.java:185) - Exception: class java.lang.NullPointerException
+ERROR | 2018-05-29 14:52:31 | [main] controller.Controller (Controller.java:401) - NumberFormatExceptionclass java.lang.NumberFormatException
+ERROR | 2018-05-29 14:55:55 | [main] controller.Controller (Controller.java:400) - NumberFormatExceptionclass java.lang.NumberFormatException
+ERROR | 2018-05-29 14:56:35 | [main] controller.Controller (Controller.java:400) - NumberFormatExceptionclass java.lang.NumberFormatException
+ERROR | 2018-05-29 14:57:51 | [main] controller.Controller (Controller.java:398) - NumberFormatExceptionclass java.lang.NumberFormatException
+ERROR | 2018-05-29 14:59:40 | [main] controller.Controller (Controller.java:397) - NumberFormatExceptionclass java.lang.NumberFormatException
+ERROR | 2018-05-29 15:07:07 | [main] controller.Controller (Controller.java:398) - NumberFormatExceptionclass java.lang.NumberFormatException
+ERROR | 2018-05-29 15:14:35 | [main] controller.Controller (Controller.java:398) - NumberFormatExceptionclass java.lang.NumberFormatException
+ERROR | 2018-05-29 15:48:10 | [main] controller.Controller (Controller.java:398) - NumberFormatExceptionclass java.lang.NumberFormatException
+ERROR | 2018-05-29 15:49:53 | [main] controller.Controller (Controller.java:396) - NumberFormatExceptionclass java.lang.NumberFormatException
+ERROR | 2018-05-29 15:58:35 | [main] controller.Controller (Controller.java:396) - NumberFormatExceptionclass java.lang.NumberFormatException
+ERROR | 2018-05-29 20:24:30 | [main] controller.Controller (Controller.java:52) - ParseException: class java.text.ParseException
+ERROR | 2018-05-29 20:24:58 | [main] controller.Controller (Controller.java:121) - ParseException: class java.text.ParseException
+ERROR | 2018-05-29 20:25:17 | [main] controller.Controller (Controller.java:186) - Exception: class java.lang.NullPointerException
+ERROR | 2018-05-29 20:55:26 | [main] controller.Controller (Controller.java:52) - ParseException: class java.text.ParseException
+ERROR | 2018-05-29 20:58:20 | [main] controller.Controller (Controller.java:52) - ParseException: class java.text.ParseException
+ERROR | 2018-05-29 21:05:55 | [main] controller.Controller (Controller.java:54) - ParseException: class java.text.ParseException
+ERROR | 2018-05-29 21:06:08 | [main] controller.Controller (Controller.java:123) - ParseException: class java.text.ParseException
+ERROR | 2018-05-29 21:06:09 | [main] controller.Controller (Controller.java:184) - Exception: class java.lang.NumberFormatException
+ERROR | 2018-05-29 21:06:38 | [main] controller.Controller (Controller.java:54) - ParseException: class java.text.ParseException
+ERROR | 2018-05-29 21:07:55 | [main] controller.Controller (Controller.java:54) - ParseException: class java.text.ParseException
+ERROR | 2018-05-29 21:09:04 | [main] controller.Controller (Controller.java:54) - ParseException: class java.text.ParseException
+ERROR | 2018-05-29 21:10:56 | [main] controller.Controller (Controller.java:55) - ParseException: null
+ERROR | 2018-05-29 21:13:13 | [main] controller.Controller (Controller.java:55) - ParseException: null3Unparseable date: "11/11/2011"
+ERROR | 2018-05-31 13:27:12 | [main] controller.Controller (Controller.java:188) - Exception: class java.lang.ArrayIndexOutOfBoundsException
+ERROR | 2018-06-03 02:42:24 | [main] csv.CSVUtil (CSVUtil.java:47) - storage.csv (Не удается найти указанный файл)
+java.io.FileNotFoundException: storage.csv (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at java.io.FileReader.<init>(Unknown Source) ~[?:?]
+	at com.senla.backend.csv.CSVUtil.importCSV(CSVUtil.java:32) [bin/:?]
+	at com.senla.ui.controller.Controller.showImport(Controller.java:527) [bin/:?]
+	at com.senla.ui.menu.action.CSVImport.execute(CSVImport.java:10) [bin/:?]
+	at com.senla.ui.menu.api.Navigator.start(Navigator.java:42) [bin/:?]
+	at com.senla.ui.menu.controller.MenuController.run(MenuController.java:28) [bin/:?]
+	at com.senla.ui.menu.controller.MenuController.main(MenuController.java:18) [bin/:?]
+ERROR | 2018-06-07 23:03:21 | [main] configuration.Config (Config.java:36) - config.properties (Не удается найти указанный файл)
+java.io.FileNotFoundException: config.properties (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.configuration.Config.loadConfig(Config.java:30) [bin/:?]
+	at com.senla.configuration.Config.<init>(Config.java:21) [bin/:?]
+	at com.senla.backend.serialization.SerializationUtil.<init>(SerializationUtil.java:17) [bin/:?]
+	at com.senla.backend.service.Shop.<init>(Shop.java:32) [bin/:?]
+	at com.senla.ui.controller.Controller.<init>(Controller.java:28) [bin/:?]
+	at com.senla.ui.controller.Controller.getInstance(Controller.java:36) [bin/:?]
+	at com.senla.ui.menu.action.Serialization.execute(Serialization.java:10) [bin/:?]
+	at com.senla.ui.menu.api.Navigator.start(Navigator.java:42) [bin/:?]
+	at com.senla.ui.menu.controller.MenuController.run(MenuController.java:28) [bin/:?]
+	at com.senla.ui.menu.controller.MenuController.main(MenuController.java:18) [bin/:?]
+ERROR | 2018-06-07 23:03:21 | [main] configuration.Config (Config.java:36) - config.properties (Не удается найти указанный файл)
+java.io.FileNotFoundException: config.properties (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.configuration.Config.loadConfig(Config.java:30) [bin/:?]
+	at com.senla.configuration.Config.<init>(Config.java:21) [bin/:?]
+	at com.senla.backend.serialization.SerializationUtil.<init>(SerializationUtil.java:17) [bin/:?]
+	at com.senla.backend.service.Shop.<init>(Shop.java:32) [bin/:?]
+	at com.senla.backend.dto.DTO.<init>(DTO.java:17) [bin/:?]
+	at com.senla.backend.serialization.SerializationUtil.serialization(SerializationUtil.java:21) [bin/:?]
+	at com.senla.backend.service.Shop.serialization(Shop.java:496) [bin/:?]
+	at com.senla.ui.controller.Controller.showSerialization(Controller.java:535) [bin/:?]
+	at com.senla.ui.menu.action.Serialization.execute(Serialization.java:10) [bin/:?]
+	at com.senla.ui.menu.api.Navigator.start(Navigator.java:42) [bin/:?]
+	at com.senla.ui.menu.controller.MenuController.run(MenuController.java:28) [bin/:?]
+	at com.senla.ui.menu.controller.MenuController.main(MenuController.java:18) [bin/:?]
+ERROR | 2018-06-07 23:03:53 | [main] configuration.Config (Config.java:36) - config.properties (Не удается найти указанный файл)
+java.io.FileNotFoundException: config.properties (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(Unknown Source) ~[?:?]
+	at java.io.FileInputStream.<init>(Unknown Source) ~[?:?]
+	at com.senla.configuration.Config.loadConfig(Config.java:30) [bin/:?]
+	at com.senla.configuration.Config.<init>(Config.java:21) [bin/:?]
+	at com.senla.backend.serialization.SerializationUtil.<init>(SerializationUtil.java:17) [bin/:?]
+	at com.senla.backend.service.Shop.<init>(Shop.java:32) [bin/:?]
+	at com.senla.ui.controller.Controller.<init>(Controller.java:28) [bin/:?]
+	at com.senla.ui.controller.Controller.getInstance(Controller.java:36) [bin/:?]
+	at com.senla.ui.menu.action.Deserialization.execute(Deserialization.java:10) [bin/:?]
+	at com.senla.ui.menu.api.Navigator.start(Navigator.java:42) [bin/:?]
+	at com.senla.ui.menu.controller.MenuController.run(MenuController.java:28) [bin/:?]
+	at com.senla.ui.menu.controller.MenuController.main(MenuController.java:18) [bin/:?]

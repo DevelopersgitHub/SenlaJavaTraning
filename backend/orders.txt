@@ -1,0 +1,5 @@
+1;Alchemist;Sun Aug 21 00:00:00 MSK 2011;1231.27;Completed
+2;The Picture of Dorian Gray;Wed May 19 00:00:00 MSD 2010;542.21;Waiting for processing
+3;Great_Gatsby;Sun May 10 00:00:00 MSD 2009;1240.26;Waiting for processing
+4;Pride and Prejudice;Tue Oct 25 00:00:00 MSK 2011;542.12;Completed
+5;Alchemist;Mon May 21 00:00:00 MSK 2012;1127.21;Waiting for processing
